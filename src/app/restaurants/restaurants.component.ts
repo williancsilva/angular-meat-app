@@ -15,7 +15,7 @@ restaurants: Restaurant[]
 
   ngOnInit() {
     this.restaurantsService.restaurants()
-    .subscribe(restaurants => this.restaurants =  restaurants)
+    .subscribe(restaurants => this.restaurants = restaurants)
   }
 
 }
