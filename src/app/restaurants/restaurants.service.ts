@@ -12,7 +12,7 @@ import { MenuItem } from "../restaurant-detail/menu-item/menu-item.model";
 export class RestaurantsService {
   constructor(private http: Http) { }
 
-  restaurants(): Observable<Restaurant[]> {
+  restaurantsTest(): Observable<Restaurant[]> {
     return this.http.get(`${MEAT_API}/restaurants`)
       .map(response => response.json())
       .catch(ErrorHandler.handleError)

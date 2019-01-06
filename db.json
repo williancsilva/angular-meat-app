@@ -370,5 +370,49 @@
       "restaurantId": "tasty-treats"
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "address": "Rua XXX",
+      "number": "1234",
+      "optionalAddress": "ooo",
+      "paymentOption": "MON",
+      "orderItens": [
+        {
+          "quantity": 2,
+          "menuId": "sunday"
+        },
+        {
+          "quantity": 1,
+          "menuId": "chocpop"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "address": "Av. Santos Dumond",
+      "number": "1",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItens": [
+        {
+          "quantity": 1,
+          "menuId": "burger"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "address": "Rua Teste",
+      "number": "000",
+      "optionalAddress": "",
+      "paymentOption": "MON",
+      "orderItens": [
+        {
+          "quantity": 1,
+          "menuId": "zlasagna"
+        }
+      ],
+      "id": 3
+    }
+  ]
 }

@@ -14,7 +14,7 @@ restaurants: Restaurant[]
   constructor(private restaurantsService: RestaurantsService) { }
 
   ngOnInit() {
-    this.restaurantsService.restaurants()
+    this.restaurantsService.restaurantsTest()
     .subscribe(restaurants => this.restaurants = restaurants)
   }
 
